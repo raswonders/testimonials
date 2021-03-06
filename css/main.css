@@ -9,6 +9,11 @@
     text-align: center;
 }
 
+#testimonialHeading {
+    position: relative;
+    top: 40%;
+}
+
 #testimonialBox {
     width: 30%;
     min-height: min-content;
