@@ -11,9 +11,9 @@
 
 #testimonialBox {
     width: 30%;
-    height: 15%;
-    position: absolute;
-    top: 64%;
+    min-height: min-content;
+    position: relative;
+    top: 60%;
     left: 35%;
     background-color: gray;
 }
@@ -56,6 +56,13 @@
     left: 0;
     right: 0;
     margin: auto;
+}
+
+#testimonial {
+    width: 80%;
+    margin: auto;
+    padding-top: 45px;
+    padding-bottom: 25px;
 }
 
 
