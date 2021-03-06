@@ -2,7 +2,11 @@ CSS
 -
 * percentage offset in nudge properties (left,top..) doesn't work for elements (position: absolute)
 * elements (position: absolute) can have their location specified as a span. For instance span specified as
-(top: 0; bottom: 0) will allocate all vertical space within its absolute reference parent. With position span we can use
+(top: 0; bottom: 0) will allocate all vertical space within its positional reference parent. With position span we can use
 margin to align element in the center;
 * to make container grow with its child we can make child parent's content and use fit-content as dimension of a parent
 * marking part of the text with block element will break the line
+
+JS
+-
+* we can access DOM style properties via elem.style
