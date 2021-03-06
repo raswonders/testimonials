@@ -14,8 +14,26 @@
     height: 15%;
     position: absolute;
     top: 64%;
-    left: 30%;
+    left: 35%;
     background-color: gray;
+}
+
+.btn {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+
+.btn-left {
+    left: -15px;
+}
+
+.btn-right {
+    right: -15px;
 }
 
 

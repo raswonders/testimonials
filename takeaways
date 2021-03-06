@@ -1,2 +1,6 @@
-CSS:
-percentage offset doesnt' work for relatively position elements
+CSS
+-
+* percentage offset in nudge properties doesn't work for elements (position: relative)
+* elements (position: absolute) can have their location specified as a span. For instance span specified as
+(top: 0; bottom: 0) will allocate all vertical space within its absolute reference parent. With position span we can use
+margin to align element in the center;
