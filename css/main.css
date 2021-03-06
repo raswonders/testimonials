@@ -1,3 +1,8 @@
+body {
+    font-size: 1em;
+    font-family: Roboto, "Times New Roman";
+}
+
 #mainBox {
     position: relative;
     top: 0;

@@ -5,4 +5,4 @@ CSS
 (top: 0; bottom: 0) will allocate all vertical space within its absolute reference parent. With position span we can use
 margin to align element in the center;
 * to make container grow with its child we can make child parent's content and use fit-content as dimension of a parent
-FIXME: HOw to break line in heading with help of CSS
+* marking part of the text with block element will break the line
