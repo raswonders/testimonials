@@ -36,5 +36,17 @@
     right: -15px;
 }
 
+#pictureElipse {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    border: 1px black solid;
+    position: absolute;
+    top: -64px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
 
 
