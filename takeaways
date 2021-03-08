@@ -10,3 +10,7 @@ margin to align element in the center;
 JS
 -
 * we can access DOM style properties via elem.style
+
+SVG
+-
+* we can save SVG sprites as a separate svg files and use mere refernces via ID to them
