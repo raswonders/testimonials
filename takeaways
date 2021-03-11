@@ -6,10 +6,12 @@ CSS
 margin to align element in the center;
 * to make container grow with its child we can make child parent's content and use fit-content as dimension of a parent
 * marking part of the text with block element will break the line
+* should not change html attributes
 
 JS
 -
-* we can access DOM style properties via elem.style
+* DOM: we can access DOM style properties via elem.style
+* DOM: setAttribute() method - use for setting html attributes
 
 SVG
 -

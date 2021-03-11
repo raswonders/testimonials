@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body onload="displayTestimonial(cu_index)">
 <div id="mainBox">
     <h1 id="testimonialHeading">Our
         <div>Testimonials</div>
@@ -16,11 +16,11 @@
         <div id="pictureEllipse"></div>
         <p id="testimonial"></p>
         <img alt="quotation mark" id="quotation" src="img/quotation.svg">
-        <svg class="icon btn btn-left">
-            <use xlink:href="img/arrow-btns-sprite.svg#left-dark" />
+        <svg class="icon btn btn-left" onclick="indexChange(-1); displayTestimonial()">
+            <use id="use-left" xlink:href="img/arrow-btns-sprite.svg#left-dark"/>
         </svg>
-        <svg class="icon btn btn-right">
-            <use xlink:href="img/arrow-btns-sprite.svg#right-dark" />
+        <svg class="icon btn btn-right" onclick="indexChange(1); displayTestimonial()">
+            <use id="use-right" xlink:href="img/arrow-btns-sprite.svg#right-dark"/>
         </svg>
     </div>
 </div>
