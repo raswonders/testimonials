@@ -15,13 +15,13 @@ const ellipsis = document.getElementById("pictureEllipse");
 let cu_index = 0
 
 function displayTestimonial() {
-    cu = customers[cu_index]
+    let cu = customers[cu_index]
     ellipsis.style.backgroundImage = `url(${cu.picture})`;
     p.innerHTML = cu.testimonial;
 }
 
 function indexChange(step) {
-    i = cu_index;
+    let i = cu_index;
     i += step
     i = i % customers.length;
     if (i < 0) i += customers.length
