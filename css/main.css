@@ -80,4 +80,17 @@ svg:hover {
     padding-bottom: 25px;
 }
 
+span {
+    color: #fedcae;
+}
 
+h1 div {
+    font-weight: 300;
+    font-size: 1.3em;
+}
+
+p {
+    font-weight: 300;
+    font-size: 1em;
+    color: antiquewhite;
+}
