@@ -45,6 +45,10 @@ body {
     right: -15px;
 }
 
+svg:hover {
+    fill: orange !important;
+}
+
 #pictureEllipse {
     width: 96px;
     height: 96px;

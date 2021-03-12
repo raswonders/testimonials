@@ -16,3 +16,4 @@ JS
 SVG
 -
 * we can save SVG sprites as a separate svg files and use mere refernces via ID to them
+* css can change fill property, that changes color of all svg elements
