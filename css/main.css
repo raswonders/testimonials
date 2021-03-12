@@ -1,6 +1,7 @@
 body {
     font-size: 1em;
     font-family: Roboto, "Times New Roman";
+    margin: 0;
 }
 
 #mainBox {
@@ -17,6 +18,7 @@ body {
 #testimonialHeading {
     position: relative;
     top: 40%;
+    margin-top: 0;
 }
 
 #testimonialBox {
