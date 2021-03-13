@@ -47,10 +47,6 @@ body {
     right: -15px;
 }
 
-svg:hover {
-    fill: orange !important;
-}
-
 #pictureEllipse {
     width: 96px;
     height: 96px;
@@ -80,6 +76,9 @@ svg:hover {
     margin: auto;
     padding-top: 45px;
     padding-bottom: 25px;
+    font-weight: 300;
+    font-size: 0.9em;
+    color: antiquewhite;
 }
 
 span {
@@ -89,10 +88,4 @@ span {
 h1 div {
     font-weight: 300;
     font-size: 1.3em;
-}
-
-p {
-    font-weight: 300;
-    font-size: 1em;
-    color: antiquewhite;
 }
